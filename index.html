@@ -1,0 +1,558 @@
+
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Pizzika</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta http-equiv="imagetoolbar" content="no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1000">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/scroll.css">
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="image_src" href="img/expres_icon.jpg">
+</head>
+
+
+ <section class="mainRegion">
+   <div class="mainRegionContent shadow">
+     <!-- POPUP MAKE ORDER -->
+    <div id="popups_bg" class="popups_bg">
+    </div>
+     <div class="regionContentArticle">
+        <!-- HEADER -->
+        <header class="hederLogo_textButton clearFix">
+          <div id="logo" class="headLeft_Logo">
+              <a href="/" class="logo"><img src="img/logo.png" alt="">
+              </a>
+          </div>
+          <div class="headRight_textButton">
+              <ul class="textButtonContent">
+                  <li><a href="#orderFeed" id="feedback_button" data-change-institution="0">Cambia locale</a></li>
+                  <li><a href="#orderPartnership" id="partnership_button">Lavora con noi</a>
+                  </li>
+                  <li><a href="#sign_in" id="sign_in_button">Accedi</a>
+                  </li>
+                  <li><a href="#register" id="register_button">Registrati</a>
+                  </li>
+              </ul>
+          </div>
+      </header>
+      <!-- EOF HEADER -->
+
+      <!-- CONSTRUCTOR -->
+      <div class="regionConstructor" id="regionConstructor">
+
+         <!-- KNIFE -->
+         <div class="knife"></div>
+
+         <!-- LEFT BLOCK -->
+
+          <div class="left_block">
+              <ul class="pizza">
+                  <li class="pizza active_product" data-product-type="pizza">
+                      <img src="img/Left_block/pizza.png" width="64" height="64">
+                      <div class="hint" data-hint="Tonda"></div>
+                  </li>
+                  <li class="calzone" data-product-type="pizza">
+                      <img src="img/Left_block/calzone.png" width="64" height="64">
+                      <div class="hint" data-hint="Calzone"></div>
+                  </li>
+              </ul>
+              <br>
+              <ul class="kebab">
+                  <li class="kebab active_product" data-product-type="pita">
+                      <img src="img/Left_block/piadina.png" width="64" height="64">
+                      <div class="hint" data-hint="Piadina"></div>
+                  </li>
+              </ul>
+              <br>
+              <ul class="burger">
+                  <li class="burger active_product" data-product-type="burger">
+                      <img src="img/Left_block/gamburger.png" width="64" height="64">
+                      <div class="hint" data-hint="Hamburger"></div>
+                  </li>
+              </ul>
+              <br>
+              <ul class="fried">
+                  <li class="fried active_product" data-product-type="fried">
+                      <img src="img/Left_block/frided.png" width="64" height="64">
+                      <div class="hint" data-hint="Patatine"></div>
+                  </li>
+              </ul>
+              <br>
+              <ul class="salad">
+                  <li class="salads active_product" data-product-type="salad">
+                      <img src="img/Left_block/salads.png" width="64" height="64">
+                      <div class="hint" data-hint="Insalata"></div>
+                  </li>
+              </ul>
+              <br>
+              <ul class="drinks">
+                  <li class="drinks active_product" data-product-type="drink">
+                      <img src="img/Left_block/drinks.png" width="64" height="64">
+                      <div class="hint" data-hint="Bevanda"></div>
+                  </li>
+              </ul>
+        </div>
+
+        <!-- INGRIDIENTS DESCRIPTION -->
+        <div class="ingridient_information" id="menuDescription">
+          <p class="ingridient_name" id="II_title"></p>
+    			<p class="ingridient_kcal"><span id="II_kcal"></span> Cal / <span id="II_weight"></span> gr</p>
+          <img class="pig_icon pulse" id="pigIcon" src="img/Other/pig_icon.png">
+          <img class="ingridient_img" id="II_icon">
+          <p class="ingridient_desciption" id="II_description"></p>
+           <p class="ingridient_price">
+             <span id="II_price">2</span><span class="ingridient_portion" id="II_currency">$</span>
+           </p>
+    		</div>
+
+        <!-- RIGHT BLOCK -->
+        <div class="right_block">
+
+          <div id="makeOrderWrapper">
+            <div class="basket_popup">
+             <h2 class="basket_popup_total">Totale:</h2>
+             <h1 class="basket_popup_price" id="finalCost"></h1>
+            </div>
+          </div>
+            <div id="makeOrderContainer" class="mo-popup-wrapper">
+              <div>
+                <header class="mo-popup-header">Procedi all'aquisto</header>
+                <section class="mo-popup-content">
+                  <div class="popup_row">
+                    <span class="label">Recevitore dell'ordine:&nbsp;</span>
+                    <strong id="MO_pizzeria"></strong>
+                  </div>
+                  <div class="popup_row">
+                    <span class="label">Nome utente</span>
+                    <input type="name" id="MO_name">
+                  </div>
+                  <div class="popup_row">
+                    <span class="label">Numero di telefono</span>
+                    <input type="phone" id="MO_phone">
+                  </div>
+                  <div class="popup_row">
+                    <span class="label">Indirizzo di consegna</span>
+                    <input type="text" id="MO_address">
+                  </div>
+                  <div class="popup_row"></div>
+                  <div class=" popup_yellow_button">
+                    <input class="next_step_order" data-mo-continue="0" type="submit" value="Continua">
+                  </div>
+                </section>
+              </div>
+
+              <div>
+                <header class="mo-popup-header">Conferma l'ordine</header>
+                <section class="mo-popup-content">
+                  <div class="popup_row">
+                    <span class="label">Inserisci il numero di consegna</span>
+                    <input type="text" id="MO_code">
+                  </div>
+                  <div class="popup_row"></div>
+                  <div class=" popup_yellow_button">
+                    <input class="next_step_order" data-mo-send-cart="0" type="submit" value="Invia l'ordine">
+                  </div>
+                </section>
+              </div>
+            </div>
+            <div class="right_block_wrapp">
+                  <ul class="ingridientidients_tabs">
+                      <li data-tabnav="0">Dal menu</li>
+                      <li data-tabnav="1">Fai da te</li>
+                      <li data-tabnav="3" id="cartTab">Carello</li>
+                  </ul>
+                  <div id="rightBlockContainer"></div>
+              </div>
+          </div>
+
+          <!-- CENTER BLOCK -->
+          <div class="center_block" id="workspaceWrapper">
+            <div class="pizza_width" style="display: none;">
+                <div class="pizza_width_top"><b id="workspaceWidth">30x30</b></div>
+                <img src="img/Center_block/pizza_width.png" width="420">
+            </div>
+            <div class="pizza_height" style="display: none;">
+                <div class="pizza_width_left"><b id="workspaceHeight">30x30</b></div>
+                <img src="img/Center_block/pizza_height.png" height="420">
+            </div>
+          </div>
+          <!-- EOF CONSTRUCTOR -->
+      </div>
+
+      <!-- CHOOSEN INGRIDIENTS-->
+      <div class="choosen_ingridient">
+				<ul id="selectedIngrs"></ul>
+        <div class="choosen_information" id="ingredientPanel" data-ingr-panel="0">
+          <div class="information_left">
+            <span class="choosen_name" id="IP_title"></span>
+          </div>
+          <div class="information_right">
+            <span id="IP_weight"></span>gr/<span id="IP_kcal"></span>Cal
+          </div>
+          <p class="ingridient_decription" id="IP_description"></p>
+          <div class="information_footer">
+            <span class="decr" id="IP_del">-</span>
+            <span class="incr" id="IP_add">+</span>
+          </div>
+        </div>
+			</div>
+
+          <!-- BOTTOM PANEL -->
+          <div class="bottom_panel">
+            <div class="bottom_panel_wrapp">
+              <div class="base_type">
+                <span>Base</span>
+                <select name="base_type" class="base_type">
+                  <option value="7 злаков">5 cereali</option>
+                  <option value="без дрождей">Senza lievito</option>
+                  <option value="пшеница">Tradizionale</option>
+                </select>
+              </div>
+            <div class="number_of_pizzas">
+              <span>Quantita</span>
+              <div class="select_number_box">
+                <input type="text" id="productCount" value="1">
+                <b class="select_number_arrow" data-change-number="+"></b>
+                <b class="select_number_arrow" data-change-number="-"></b>
+              </div>
+            </div>
+            <div class="pizza_size">
+              <span>Dimenzioni</span>
+              <select name="pizza_size" class="pizza_size" onchange="Arrows()" id="pizzaSize" data-pizza-size="0">
+                <option class="size_30" value="30">Mini 30</option>
+                <option class="size_20" value="20">Mini 20</option>
+              </select>
+            </div>
+            <div class="total_calories">
+              <span id="generalKcal">0 Cal</span>
+            </div>
+          </div>
+          <div class="total_price">
+            <div class="price_number"><b>Totale:</b><span id="generalCost">0</span> <b>$</b></div>
+            <div class="yellow_button">
+              <input type="submit" data-add-product="0" value="Aggiungi al carello">
+            </div>
+          </div>
+        </div>
+
+
+     </div> <!-- mainRegionContent -->
+
+     <div id="warningDialogWindow"></div>
+
+  </section>
+
+
+       <!-- SELECT INSTITUTION -->
+
+       <div id="selectInstitution" class="SI_wrapper">
+         <header class="hederLogo_textButton clearFix">
+           <div id="logo" class="headLeft_Logo">
+               <a href="/" class="logo"><img src="img/logo.png" alt="">
+               </a>
+           </div>
+         </header>
+         <div class="pizzerias_SI popup_SI popup_content_SI SI_container" id="SI_container">
+           <main id="wrapper">
+             <aside id="leftBlock" class="container">
+               <div class="box">
+                 <div>
+                  <div class="search">
+                   <input type="text" name="txt_phone">
+                   <div class="search-submit">
+                   </div>
+                 </div>
+                  <div class="selectInstitution-checkboxes">
+                <div class="checkboxes-left">
+                  <div>
+                  <input type="checkbox">
+                   <span>Promozioni</span><br>
+                   </div>
+                  <div>
+                  <input type="checkbox">
+                   <span>Sconti</span><br>
+                  </div>
+                   <div>
+                  <input type="checkbox">
+                   <span>Top</span><br>
+                   </div>
+                 </div>
+                 <div class="checkboxes-right">
+                   <div>
+                  <input type="checkbox">
+                   <span>Consegna gratis</span><br>
+                   </div>
+                   <div>
+                  <input type="checkbox">
+                   <span>Accettiamo i buoni</span><br>
+                   </div>
+                   <div>
+                  <input type="checkbox">
+                   <span>Prezzi bassi</span><br>
+                   </div>
+                 </div>
+                </div>
+                <ul class="pizzerias-list" ss-container>
+                  <li class="pizzerias-list-item" data-institution-id="0"><div class="pizzerias-list-item-name">Pizzori </div><img class="hover_icon yellow-arrow-right" src="img/popups/yellow_arrow_right.png"> <span class="ad">Top</span></li>
+                  <li class="pizzerias-list-item" data-institution-id="1"><div class="pizzerias-list-item-name">Alibaba </div><img class="hover_icon yellow-arrow-right" src="img/popups/yellow_arrow_right.png"> <span class="ad">Top</span> <span class="discount">-10%</span></li>
+                </ul>
+                <div class="pizzerias-button">
+               <div class="popup_yellow_button"><input type="submit" value="Continua" data-set-institution="0"></div>
+               </div>
+               </div>
+             </aside>
+             <section id="rightBlock" class="container" ss-container>
+               <div class="box">
+                 <div id="about_pizzeria">
+                     <div>
+                       <div id="institutionInfo"></div>
+                       <h1 id="SI_tip" class="selectInstitution-tip">Seleziona il locale dal menu a sinistra</h1>
+
+                       <div id="SI_map" class="about_map">
+                         <div id="map"></div>
+                       </div>
+                     </div>
+                   </div>
+             </section>
+           </main>
+         </div>
+       </div>
+       </div> <!-- END OF SELECT INSTITUTION -->
+  </div>
+
+  <!-- POPUPS -->
+  <div id="popups">
+  <div class="popups_vertical_align">
+  <!--SIGN IN  -->
+  <div id="sign_in" class="popup">
+    <div class="popup_content">
+      <button class="popup_close"></button>
+      <div>
+      <div class="popup_title">Accedi</div>
+      <div class="popup_row">
+        <span class="label">Numero di telefono:</span>
+        <input type="text">
+      </div>
+      <div class="popup_row">
+        <span class="label">Password</span>
+        <input type="password">
+      </div>
+      <div >
+        <span class="remember_me remember_me100">
+          <label>
+            <input type="checkbox">
+            <span>Ricordami</span>
+          </label>
+          <span id="forgot_password_button" class="red_text">Dimenticato la password?</span>
+        </span>
+      </div>
+      <div class="popup_row">
+        <div class=" popup_yellow_button"><input type="submit" value="Accedi"></div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <!-- FORGOT PASSWORD POPUP -->
+  <div id="forgot_password" class="popup">
+    <div class="popup_content">
+      <button class="popup_close"></button>
+      <div class="popup_title">Dimenticato la password?</div>
+      <div class="popup_row">
+        <span class="label">Indirizzo E-mail</span>
+        <input type="text" class="emlS">
+      </div>
+      <div class="popup_row">
+        <div class="popup_yellow_button"><input type="submit" name="btn-login" value="Invia"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FEEDBACK POPUP -->
+  <div class="popup_wrap">
+  <!-- PARTNERSHIP POPUP -->
+  <div id="partnership" class="popup">
+    <div class="popup_content">
+      <button class="popup_close"></button>
+      <div class="popup_title">Collabora</div>
+      <div class="popup_row">
+        <span class="label">Nome del locale</span>
+        <input type="text">
+      </div>
+      <div class="popup_row">
+        <span class="label">Tuo indirizzo E-mail</span>
+        <input type="text">
+      </div>
+      <div class="popup_row">
+        <span class="label">Numero di telefono</span>
+        <input type="text">
+      </div>
+      <div class="popup_row">
+        <span class="label">Messaggio</span>
+        <textarea></textarea>
+      </div>
+      <div class="popup_row">
+        <div class="popup_yellow_button"><input type="submit" value="Invia"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- LK POPUP -->
+  <div id="lk" class="popup">
+    <div class="popup_content">
+      <button class="popup_close"></button>
+      <div class="popup_title">Area personale</div>
+      <div class="popup_row">
+        <span class="label"><b>Nome del locale:</b></span>
+        <span class="label">Nome Pizzika</span>
+      </div>
+      <div class="popup_row">
+        <span class="label"><b>Tuo E-mail:</b></span>
+        <span class="label">petya@gmail.com</span>
+      </div>
+      <div class="popup_row">
+        <span class="label"><b>Numero di telefono:</b></span>
+        <span class="label">+937711942</span>
+      </div>
+      <div class="popup_row">
+        <span class="label"><b>Password:</b></span>
+        <span class="label">dfddsal1</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- RIGISTER POPUP -->
+	<form>
+  <div id="register" class="popup">
+    <div class="popup_content">
+      <button class="popup_close"></button>
+      <div class="popup_title">Registrati</div>
+      <div class="popup_row">
+        <span class="label">Nome</span>
+        <input type="name">
+      </div>
+      <div class="popup_row">
+        <span class="label">Numero di telefono</span>
+        <input type="phone" >
+      </div>
+      <div class="popup_row">
+      <div class="reg_email">
+          <span class="label ">E-mail</span>
+          <input type="email" >
+      </div>
+     </div>
+      <div class="popup_row">
+        <div class="reg_password">
+            <span class="label">Password</span>
+            <input type="password" class="adress inline-block">
+        </div>
+      </div>
+       <div class="popup_row">
+         <div class="popup_yellow_button"><input type="submit" value="Registrati"></div>
+        </div>
+      </div>
+    </div>
+	</form>
+  </div>
+</div><!-- END OF POPUPS -->
+
+<script src="js/jquery.js"></script>
+<script src="js/library.js"></script>
+<script src="js/functions.js"></script>
+<script src="js/oop.js"></script>
+<script src="js/scroll.js"></script>
+
+  <!-- SHOW POPUPS -->
+  <script>
+      $('.info_button').click(function() {
+        $('#popups, .popups_bg, .pizzerias, #about_pizzeria').show();
+        $('#sign_in, #register,#lk, #partnership, #forgot_password, #feedback').hide();
+      });
+
+      $('#sign_in_button').click(function() {
+        $('#popups, .popups_bg, #sign_in').show();
+        $('#about_pizzeria,#lk,.pizzerias, #register, #partnership, #forgot_password, #feedback').hide();
+      });
+
+      $('#register_button').click(function() {
+        $('#popups, .popups_bg, #register').show();
+        $('#about_pizzeria,#lk,.pizzerias, #sign_in, #partnership, #forgot_password, #feedback').hide();
+      });
+      $('#lk_button').click(function() {
+        $('#popups, .popups_bg, #lk').show();
+        $('#about_pizzeria,#register,.pizzerias, #sign_in, #partnership, #forgot_password, #feedback').hide();
+      });
+
+      $('#partnership_button').click(function() {
+        $('#popups, .popups_bg, #partnership').show();
+        $('#about_pizzeria,#lk,.pizzerias, #sign_in, #register, #forgot_password, #feedback').hide();
+      });
+
+      $('#forgot_password_button').click(function() {
+        $('#popups, .popups_bg, #forgot_password').show();
+        $('#about_pizzeria,#lk,.pizzerias, #sign_in, #register, #partnership, #feedback').hide();
+      });
+
+      $('.popup_close, .pizzerias-button').click(function() {
+        $('#popups').hide();
+        $('.popups_bg').hide();
+      });
+  </script>
+
+<!-- Left block pizza change -->
+  <script>
+  $('li.calzone').on('click', function(){
+    $('li.calzone').addClass('active_product');
+    $('li.calzone').css('float', 'left');
+    $('li.pizza').removeClass('active_product');
+    $('li.pizza').addClass('pizza-move-right');
+  });
+    </script>
+
+    <script>
+  $('li.pizza').on('click', function(){
+    $('li.calzone').removeClass('active_product');
+    $('li.calzone').css('float', 'right');
+    $('li.pizza').addClass('active_product');
+    $('li.pizza').removeClass('pizza-move-right');
+  });
+
+  </script>
+
+<!-- ABOUT PIZZERIA MAP -->
+  <script>
+    function initMap() {
+      // Create a map object and specify the DOM element for display.
+      var map = new google.maps.Map(document.getElementById('map'), {
+        center: {lat: 49.839683, lng: 24.029717},
+        scrollwheel: false,
+        zoom: 8
+      });
+    }
+  </script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAABGV92nf4smvVlVawsbLDiY-SyWSV1ek&callback=initMap"
+  async defer>
+  </script>
+<script>
+
+//Стрелки, изменение размера
+function Arrows(){
+	var val = $(".pizza_size :selected").val();
+	$('#workspaceWidth').text(val.slice(val.indexOf("_")+1)+'x'+val.slice(val.indexOf("_")+1));
+	$('#workspaceHeight').text(val.slice(val.indexOf("_")+1)+'x'+val.slice(val.indexOf("_")+1));
+  	$('#workspaceWidth, #workspaceHeight').addClass('animated pulse');
+		$('.pizza_width > img, .pizza_height > img').addClass('animated rubberBand');
+    setTimeout(function(){
+        $('#workspaceWidth, #workspaceHeight').removeClass('animated pulse');
+        $('.pizza_width > img, .pizza_height > img').removeClass('animated rubberBand');
+    },1000);
+}
+</script>
+</body>
+
+</html>

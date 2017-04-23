@@ -1,0 +1,559 @@
+[{
+  "title": "Aristide",
+  "icon": "img/pizza_icons/Aristide.png",
+  "price": 2.99,
+  "kcal": 1450,
+  "weight": 550,
+  "description": "Краткое описание данного продукта: белая (белые соус или моццарелла),грибы, маринованный перец, бекон",
+  "sauce": "red",
+  "cons": 42,
+  "pros": 58,
+  "type": 1,
+  "template": [{
+      "ingrIndex": 0,
+      "count": 3
+    },{
+      "ingrIndex": 1,
+      "count": 1
+  }]
+},{
+  "title": "Boscaiola",
+  "icon": "img/pizza_icons/Boscaiola.png",
+  "price": 2.99,
+  "kcal": 1450,
+  "weight": 550,
+  "description": "Краткое описание данного продукта: белая (белые соус или моццарелла),грибы, маринованный перец, бекон",
+  "sauce": "red",
+  "cons": 42,
+  "pros": 58,
+  "type": 0,
+  "template": [{
+      "ingrIndex": 0,
+      "count": 3
+    },{
+      "ingrIndex": 1,
+      "count": 1
+  }]
+},{
+  "title": "Calabrese",
+  "icon": "img/pizza_icons/Calabrese.png",
+  "price": 2.99,
+  "kcal": 1450,
+  "weight": 550,
+  "description": "Краткое описание данного продукта: белая (белые соус или моццарелла),грибы, маринованный перец, бекон",
+  "sauce": "red",
+  "cons": 42,
+  "pros": 58,
+  "type": 0,
+  "template": [{
+      "ingrIndex": 0,
+      "count": 3
+    },{
+      "ingrIndex": 1,
+      "count": 1
+  }]
+},{
+  "title": "Capricciosa",
+  "icon": "img/pizza_icons/Capricciosa.png",
+  "price": 2.99,
+  "kcal": 1450,
+  "weight": 550,
+  "description": "Краткое описание данного продукта: белая (белые соус или моццарелла),грибы, маринованный перец, бекон",
+  "sauce": "red",
+  "cons": 42,
+  "pros": 58,
+  "type": 2,
+  "template": [{
+      "ingrIndex": 0,
+      "count": 3
+    },{
+      "ingrIndex": 1,
+      "count": 1
+  }]
+},{
+  "title": "Contadina",
+  "icon": "img/pizza_icons/Contadina.png",
+  "price": 2.99,
+  "kcal": 1450,
+  "weight": 550,
+  "description": "Краткое описание данного продукта: белая (белые соус или моццарелла),грибы, маринованный перец, бекон",
+  "sauce": "red",
+  "cons": 42,
+  "pros": 58,
+  "type": 0,
+  "template": [{
+      "ingrIndex": 0,
+      "count": 3
+    },{
+      "ingrIndex": 1,
+      "count": 1
+  }]
+},{
+  "title": "Diavola",
+  "icon": "img/pizza_icons/Diavola.png",
+  "price": 2.99,
+  "kcal": 1450,
+  "weight": 550,
+  "description": "Краткое описание данного продукта: белая (белые соус или моццарелла),грибы, маринованный перец, бекон",
+  "sauce": "red",
+  "cons": 42,
+  "pros": 58,
+  "type": 1,
+  "template": [{
+      "ingrIndex": 0,
+      "count": 3
+    },{
+      "ingrIndex": 1,
+      "count": 1
+  }]
+},{
+  "title": "Eden",
+  "icon": "img/pizza_icons/Eden.png",
+  "price": 2.99,
+  "kcal": 1450,
+  "weight": 550,
+  "description": "Краткое описание данного продукта: белая (белые соус или моццарелла),грибы, маринованный перец, бекон",
+  "sauce": "red",
+  "cons": 42,
+  "pros": 58,
+  "type": 0,
+  "template": [{
+      "ingrIndex": 0,
+      "count": 3
+    },{
+      "ingrIndex": 1,
+      "count": 1
+  }]
+},{
+  "title": "Etna",
+  "icon": "img/pizza_icons/Etna.png",
+  "price": 2.99,
+  "kcal": 1450,
+  "weight": 550,
+  "description": "Краткое описание данного продукта: белая (белые соус или моццарелла),грибы, маринованный перец, бекон",
+  "sauce": "red",
+  "cons": 42,
+  "pros": 58,
+  "type": 0,
+  "template": [{
+      "ingrIndex": 0,
+      "count": 3
+    },{
+      "ingrIndex": 1,
+      "count": 1
+  }]
+},{
+  "title": "Formaggi",
+  "icon": "img/pizza_icons/Formaggi.png",
+  "price": 2.99,
+  "kcal": 1450,
+  "weight": 550,
+  "description": "Краткое описание данного продукта: белая (белые соус или моццарелла),грибы, маринованный перец, бекон",
+  "sauce": "red",
+  "cons": 42,
+  "pros": 58,
+  "type": 0,
+  "template": [{
+      "ingrIndex": 0,
+      "count": 3
+    },{
+      "ingrIndex": 1,
+      "count": 1
+  }]
+},{
+  "title": "Kokalos",
+  "icon": "img/pizza_icons/Kokalos.png",
+  "price": 2.99,
+  "kcal": 1450,
+  "weight": 550,
+  "description": "Краткое описание данного продукта: белая (белые соус или моццарелла),грибы, маринованный перец, бекон",
+  "sauce": "red",
+  "cons": 42,
+  "pros": 58,
+  "type": 0,
+  "template": [{
+      "ingrIndex": 0,
+      "count": 3
+    },{
+      "ingrIndex": 1,
+      "count": 1
+  }]
+},{
+  "title": "Margherita",
+  "icon": "img/pizza_icons/Margherita.png",
+  "price": 2.99,
+  "kcal": 1450,
+  "weight": 550,
+  "description": "Краткое описание данного продукта: белая (белые соус или моццарелла),грибы, маринованный перец, бекон",
+  "sauce": "red",
+  "cons": 42,
+  "pros": 58,
+  "type": 1,
+  "template": [{
+      "ingrIndex": 0,
+      "count": 3
+    },{
+      "ingrIndex": 1,
+      "count": 1
+  }]
+},{
+  "title": "Margo",
+  "icon": "img/pizza_icons/Margo.png",
+  "price": 2.99,
+  "kcal": 1450,
+  "weight": 550,
+  "description": "Краткое описание данного продукта: белая (белые соус или моццарелла),грибы, маринованный перец, бекон",
+  "sauce": "red",
+  "cons": 42,
+  "pros": 58,
+  "type": 0,
+  "template": [{
+      "ingrIndex": 0,
+      "count": 3
+    },{
+      "ingrIndex": 1,
+      "count": 1
+  }]
+},{
+  "title": "Marinara",
+  "icon": "img/pizza_icons/Marinara.png",
+  "price": 2.99,
+  "kcal": 1450,
+  "weight": 550,
+  "description": "Краткое описание данного продукта: белая (белые соус или моццарелла),грибы, маринованный перец, бекон",
+  "sauce": "red",
+  "cons": 42,
+  "pros": 58,
+  "type": 0,
+  "template": [{
+      "ingrIndex": 0,
+      "count": 3
+    },{
+      "ingrIndex": 1,
+      "count": 1
+  }]
+},{
+  "title": "Montanara",
+  "icon": "img/pizza_icons/Montanara.png",
+  "price": 2.99,
+  "kcal": 1450,
+  "weight": 550,
+  "description": "Краткое описание данного продукта: белая (белые соус или моццарелла),грибы, маринованный перец, бекон",
+  "sauce": "red",
+  "cons": 42,
+  "pros": 58,
+  "type": 0,
+  "template": [{
+      "ingrIndex": 0,
+      "count": 3
+    },{
+      "ingrIndex": 1,
+      "count": 1
+  }]
+},{
+  "title": "Muxar",
+  "icon": "img/pizza_icons/Muxar.png",
+  "price": 2.99,
+  "kcal": 1450,
+  "weight": 550,
+  "description": "Краткое описание данного продукта: белая (белые соус или моццарелла),грибы, маринованный перец, бекон",
+  "sauce": "red",
+  "cons": 42,
+  "pros": 58,
+  "type": 2,
+  "template": [{
+      "ingrIndex": 0,
+      "count": 3
+    },{
+      "ingrIndex": 1,
+      "count": 1
+  }]
+},{
+  "title": "Napoletana",
+  "icon": "img/pizza_icons/Napoletana.png",
+  "price": 2.99,
+  "kcal": 1450,
+  "weight": 550,
+  "description": "Краткое описание данного продукта: белая (белые соус или моццарелла),грибы, маринованный перец, бекон",
+  "sauce": "red",
+  "cons": 42,
+  "pros": 58,
+  "type": 0,
+  "template": [{
+      "ingrIndex": 0,
+      "count": 3
+    },{
+      "ingrIndex": 1,
+      "count": 1
+  }]
+},{
+  "title": "Nduja",
+  "icon": "img/pizza_icons/Nduja.png",
+  "price": 2.99,
+  "kcal": 1450,
+  "weight": 550,
+  "description": "Краткое описание данного продукта: белая (белые соус или моццарелла),грибы, маринованный перец, бекон",
+  "sauce": "red",
+  "cons": 42,
+  "pros": 58,
+  "type": 0,
+  "template": [{
+      "ingrIndex": 0,
+      "count": 3
+    },{
+      "ingrIndex": 1,
+      "count": 1
+  }]
+},{
+  "title": "Parma",
+  "icon": "img/pizza_icons/Parma.png",
+  "price": 2.99,
+  "kcal": 1450,
+  "weight": 550,
+  "description": "Краткое описание данного продукта: белая (белые соус или моццарелла),грибы, маринованный перец, бекон",
+  "sauce": "red",
+  "cons": 42,
+  "pros": 58,
+  "type": 0,
+  "template": [{
+      "ingrIndex": 0,
+      "count": 3
+    },{
+      "ingrIndex": 1,
+      "count": 1
+  }]
+},{
+  "title": "Parmiggana",
+  "icon": "img/pizza_icons/Parmiggana.png",
+  "price": 2.99,
+  "kcal": 1450,
+  "weight": 550,
+  "description": "Краткое описание данного продукта: белая (белые соус или моццарелла),грибы, маринованный перец, бекон",
+  "sauce": "red",
+  "cons": 42,
+  "pros": 58,
+  "type": 0,
+  "template": [{
+      "ingrIndex": 0,
+      "count": 3
+    },{
+      "ingrIndex": 1,
+      "count": 1
+  }]
+},{
+  "title": "Pazza",
+  "icon": "img/pizza_icons/Pazza.png",
+  "price": 2.99,
+  "kcal": 1450,
+  "weight": 550,
+  "description": "Краткое описание данного продукта: белая (белые соус или моццарелла),грибы, маринованный перец, бекон",
+  "sauce": "red",
+  "cons": 42,
+  "pros": 58,
+  "type": 3,
+  "template": [{
+      "ingrIndex": 0,
+      "count": 3
+    },{
+      "ingrIndex": 1,
+      "count": 1
+  }]
+},{
+  "title": "Primavera",
+  "icon": "img/pizza_icons/Primavera.png",
+  "price": 2.99,
+  "kcal": 1450,
+  "weight": 550,
+  "description": "Краткое описание данного продукта: белая (белые соус или моццарелла),грибы, маринованный перец, бекон",
+  "sauce": "red",
+  "cons": 42,
+  "pros": 58,
+  "type": 0,
+  "template": [{
+      "ingrIndex": 0,
+      "count": 3
+    },{
+      "ingrIndex": 1,
+      "count": 1
+  }]
+},{
+  "title": "Pugliese",
+  "icon": "img/pizza_icons/Pugliese.png",
+  "price": 2.99,
+  "kcal": 1450,
+  "weight": 550,
+  "description": "Краткое описание данного продукта: белая (белые соус или моццарелла),грибы, маринованный перец, бекон",
+  "sauce": "red",
+  "cons": 42,
+  "pros": 58,
+  "type": 0,
+  "template": [{
+      "ingrIndex": 0,
+      "count": 3
+    },{
+      "ingrIndex": 1,
+      "count": 1
+  }]
+},{
+  "title": "Romana",
+  "icon": "img/pizza_icons/Romana.png",
+  "price": 2.99,
+  "kcal": 1450,
+  "weight": 550,
+  "description": "Краткое описание данного продукта: белая (белые соус или моццарелла),грибы, маринованный перец, бекон",
+  "sauce": "red",
+  "cons": 42,
+  "pros": 58,
+  "type": 3,
+  "template": [{
+      "ingrIndex": 0,
+      "count": 3
+    },{
+      "ingrIndex": 1,
+      "count": 1
+  }]
+},{
+  "title": "Rustica",
+  "icon": "img/pizza_icons/Rustica.png",
+  "price": 2.99,
+  "kcal": 1450,
+  "weight": 550,
+  "description": "Краткое описание данного продукта: белая (белые соус или моццарелла),грибы, маринованный перец, бекон",
+  "sauce": "red",
+  "cons": 42,
+  "pros": 58,
+  "type": 0,
+  "template": [{
+      "ingrIndex": 0,
+      "count": 3
+    },{
+      "ingrIndex": 1,
+      "count": 1
+  }]
+},{
+  "title": "Sofia",
+  "icon": "img/pizza_icons/Sofia.png",
+  "price": 2.99,
+  "kcal": 1450,
+  "weight": 550,
+  "description": "Краткое описание данного продукта: белая (белые соус или моццарелла),грибы, маринованный перец, бекон",
+  "sauce": "red",
+  "cons": 42,
+  "pros": 58,
+  "type": 0,
+  "template": [{
+      "ingrIndex": 0,
+      "count": 3
+    },{
+      "ingrIndex": 1,
+      "count": 1
+  }]
+},{
+  "title": "Stagioni",
+  "icon": "img/pizza_icons/Stagioni.png",
+  "price": 2.99,
+  "kcal": 1450,
+  "weight": 550,
+  "description": "Краткое описание данного продукта: белая (белые соус или моццарелла),грибы, маринованный перец, бекон",
+  "sauce": "red",
+  "cons": 42,
+  "pros": 58,
+  "type": 0,
+  "template": [{
+      "ingrIndex": 0,
+      "count": 3
+    },{
+      "ingrIndex": 1,
+      "count": 1
+  }]
+},{
+  "title": "Tirolese",
+  "icon": "img/pizza_icons/Tirolese.png",
+  "price": 2.99,
+  "kcal": 1450,
+  "weight": 550,
+  "description": "Краткое описание данного продукта: белая (белые соус или моццарелла),грибы, маринованный перец, бекон",
+  "sauce": "red",
+  "cons": 42,
+  "pros": 58,
+  "type": 0,
+  "template": [{
+      "ingrIndex": 0,
+      "count": 3
+    },{
+      "ingrIndex": 1,
+      "count": 1
+  }]
+},{
+  "title": "Tom-Jerry",
+  "icon": "img/pizza_icons/Tom-Jerry.png",
+  "price": 2.99,
+  "kcal": 1450,
+  "weight": 550,
+  "description": "Краткое описание данного продукта: белая (белые соус или моццарелла),грибы, маринованный перец, бекон",
+  "sauce": "red",
+  "cons": 42,
+  "pros": 58,
+  "type": 0,
+  "template": [{
+      "ingrIndex": 0,
+      "count": 3
+    },{
+      "ingrIndex": 1,
+      "count": 1
+  }]
+},{
+  "title": "Tonno-cipolla",
+  "icon": "img/pizza_icons/Tonno-cipolla.png",
+  "price": 2.99,
+  "kcal": 1450,
+  "weight": 550,
+  "description": "Краткое описание данного продукта: белая (белые соус или моццарелла),грибы, маринованный перец, бекон",
+  "sauce": "red",
+  "cons": 42,
+  "pros": 58,
+  "type": 0,
+  "template": [{
+      "ingrIndex": 0,
+      "count": 3
+    },{
+      "ingrIndex": 1,
+      "count": 1
+  }]
+},{
+  "title": "Toto",
+  "icon": "img/pizza_icons/Toto.png",
+  "price": 2.99,
+  "kcal": 1450,
+  "weight": 550,
+  "description": "Краткое описание данного продукта: белая (белые соус или моццарелла),грибы, маринованный перец, бекон",
+  "sauce": "red",
+  "cons": 42,
+  "pros": 58,
+  "type": 0,
+  "template": [{
+      "ingrIndex": 0,
+      "count": 3
+    },{
+      "ingrIndex": 1,
+      "count": 1
+  }]
+},{
+  "title": "TreMarie",
+  "icon": "img/pizza_icons/TreMarie.png",
+  "price": 2.99,
+  "kcal": 1450,
+  "weight": 550,
+  "description": "Краткое описание данного продукта: белая (белые соус или моццарелла),грибы, маринованный перец, бекон",
+  "sauce": "red",
+  "cons": 42,
+  "pros": 58,
+  "type": 0,
+  "template": [{
+      "ingrIndex": 0,
+      "count": 3
+    },{
+      "ingrIndex": 1,
+      "count": 1
+  }]
+}]

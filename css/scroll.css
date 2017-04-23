@@ -1,0 +1,67 @@
+.ss-wrapper {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+  float: left;
+}
+
+.ss-container{
+  position: relative;
+}
+
+.ss-content {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 20px 0 0;
+  position: relative;
+  right: -18px;
+  overflow: auto;
+}
+
+.ss-scroll {
+  position: absolute;
+  top: 0;
+  right: 5px;
+  z-index: 3;
+  cursor: pointer;
+  width: 12px;
+  background: #ffbb00;
+  box-shadow: 0px 1px 3px 0px rgb( 0, 0, 0 );
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  transition: background .25s linear;
+}
+.ss-scroll-bg{
+  position: absolute;
+  top: .5%;
+  right: 5px;
+  z-index: 2;
+  width: 12px;
+  height: 99%;
+  background-color: rgba( 94, 94, 94, 0.6 );
+  box-shadow: 0px 1px 0px 0px rgb( 255, 255, 255 );
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.ss-scroll:hover{
+  background: rgb(209, 157, 40);
+  transition: background .25s linear;
+}
+
+.ss-hidden {
+  display: none;
+}
+
+.ss-grabbed {
+  -o-user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}

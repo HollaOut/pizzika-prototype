@@ -1,0 +1,19 @@
+[{
+  "title": "Кока-Кола",
+  "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/1024px-Google_%22G%22_Logo.svg.png",
+  "price": 2.99,
+  "kcal": 1450,
+  "weight": 550,
+  "description": "Краткое описание данного продукта: белая (белые соус или моццарелла),грибы, маринованный перец, бекон",
+  "cons": 42,
+  "pros": 58
+},{
+  "title": "Кока",
+  "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/1024px-Google_%22G%22_Logo.svg.png",
+  "price": 3.99,
+  "kcal": 1450,
+  "weight": 550,
+  "description": "Краткое описание данного продукта: белая (белые соус или моццарелла),грибы, маринованный перец, бекон",
+  "cons": 42,
+  "pros": 58
+}]
